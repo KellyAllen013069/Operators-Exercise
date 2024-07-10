@@ -2,11 +2,11 @@
 {
     public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int a = 17;
             int b = 4;
-            int sum = a + b;
+            // int sum = a + b;
             int quotient = a / b;
             int remainder = a % b;
             Console.WriteLine($"{a}/{b} is {quotient} remainder {remainder}");
